@@ -1,0 +1,92 @@
+<h1>Create a Question</h1>
+<form id="create_question" method="post" margin="auto" text-align="center">
+    <label for="question">Create a Question</label><br><textarea name="question" rows="8" cols="60" wrap="soft"> </textarea><br><br>
+    <label for="funcName">Function Name</label><br><input type="text" name="funcName"><br><br>
+    <label for="setdifficulty">Select Difficulty</label><br>
+    <select id="setdifficulty" form="create_question" name="difficulty">
+        <option value="">--Please choose an option--</option>
+        <option value="Easy">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+    </select><br><br>
+    <label for="setcategory">Select Category</label><br>
+    <select id="setcategory" form="create_question" name="category">
+        <option value="">--Please choose an option--</option>
+        <option value="For-loops">For-loops</option>
+        <option value="While-loops">While-loops</option>
+        <option value="String Manipulation">String Manipulation</option>
+        <option value="Recursion">Recursion</option>
+        <option value="Math Stuff">Math Stuff</option>
+    </select><br><br>
+    <label for="forconstraint">Constraint: For-Loop</label><br>
+    <select id="forconstraint" form="create_question" name="forconstraint">
+        <option value="No">No</option>
+        <option value="Yes">Yes</option>
+    </select><br><br>
+    <label for="whileconstraint">Constraint: While-Loop</label><br>
+    <select id="whileconstraint" form="create_question" name="whileconstraint">
+        <option value="No">No</option>
+        <option value="Yes">Yes</option>
+    </select><br><br>
+    <label for="printconstraint">Constraint: Print</label><br>
+    <select id="printconstraint" form="create_question" name="printconstraint">
+        <option value="No">No</option>
+        <option value="Yes">Yes</option>
+    </select><br><br>
+    <label for="testcasetable">Test Cases</label><br>
+    <table name="testcasetable" align="center">
+        <tr>
+            <td>Input</td>
+            <td>Output</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="tc1_input">
+            </td>
+            <td>
+                <input type="text" name="tc1_output">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="tc2_input">
+            </td>
+            <td>
+                <input type="text" name="tc2_output">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="tc3_input">
+            </td>
+            <td>
+                <input type="text" name="tc3_output">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="tc4_input">
+            </td>
+            <td>
+                <input type="text" name="tc4_output">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="tc5_input">
+            </td>
+            <td>
+                <input type="text" name="tc5_output">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="tc6_input">
+            </td>
+            <td>
+                <input type="text" name="tc6_output">
+            </td>
+        </tr>
+    </table>
+    <button onclick="" id ="submit" class="btn" type="button" form="create_question" value="Submit">Submit</button>
+</form>

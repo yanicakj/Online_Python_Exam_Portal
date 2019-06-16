@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<link rel="stylesheet" href="style.css">-->
+        <title>Login Page</title>
+    </head>
+    <h1>Login Page</h1>
+    <body>
+        <form id="login" method="post">
+            UCID:
+            <input type="text" name="username"><br><br>
+            Password:
+            <input type="password" name="password"></br>
+        </form><br>
+        <button onclick='postData(url)' id ="submit" type="button" form="login" value="Submit">Submit</button>
+        <script>
+
+        function logResult(result) {
+          console.log(result);
+        }
+
+        function logError(error) {
+          console.log('Looks like there was a problem:', error);
+        }
+
+        function studentLogin () {
+            window.location.replace("https://web.njit.edu/~jy425/CS490/student.php");
+        }
+
+        function professorLogin () {
+            window.location.replace("https://web.njit.edu/~jy425/CS490/professor.php");
+        }
+
+        function postData(url = '') {
+
+            const formData = new FormData(document.getElementById('login'));
+            formData.append('indicator', 'login');
+            // let JSON_DATA = {};
+            //
+            // for (const [key, value] of formData.entries()) {
+            //     JSON_DATA[key] = value;
+            // }
+
+            console.log(formData);
+
+              return fetch(url, {
+                    method: 'POST',
+                    headers: {
+                      'Content-Type': 'application/json',
+                    },
+                    //body: JSON.stringify(JSON_DATA),
+                    body: formData,
+                    mode: 'no-cors'
+                }).then((res) => res.json())
+                .then((response) => {
+                    //return document.getElementById('state').insertAdjacentHTML('afterend', JSON.stringify(response) + '<br>');
+                    //var info = JSON.parse(response);
+                   // var  document.getElementById('state').insertAdjacentHTML('afterend', response.ankit + '<br>');
+                       var typePerson = response.ankit;
+
+                       if (typePerson === "student") {
+                           studentLogin();
+                       }
+
+                       else if (typePerson === 'professor') {
+                           professorLogin();
+                       }
+
+                });
+        }
+
+        // listener for tab key in textarea
+        document.addEventListener('keydown',function(e){
+            if(e.target && (e.keyCode == 13)) {
+                postData(url);
+            }
+        });
+
+        //url = 'https://Web.njit.edu/~jy425/CS490/receiver.php';
+        url = 'https://web.njit.edu/~ecastela/cs490/frontback.php';
+
+        const postButton = document.getElementById('submit');
+
+    </script>
+    <div id="state"></div>
+    </body>
+</html>
