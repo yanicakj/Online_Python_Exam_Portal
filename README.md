@@ -2,6 +2,8 @@
 A series of equal parts hurriedly and poorly programmed files. Online exam web portal for professors to build Python Programming exams &amp; students to take these exams. Exams are automatically graded on submission by PHP program that runs students' python programs.
 #### Screenshots included below of important pages/features of the web app.
 
+..................................... editing below .................................
+
 ## Home Feed
 
 <p float="left">
