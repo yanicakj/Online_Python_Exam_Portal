@@ -1,61 +1,74 @@
 # Online_Python_Exam_Portal
 A series of equal parts hurriedly and poorly programmed files. Online exam web portal for professors to build Python Programming exams &amp; students to take these exams. Exams are automatically graded on submission by PHP program that runs students' python programs.
-#### Screenshots included below of important pages/features of the web app.
 
-..................................... editing below .................................
+### Stack:
+#### HTML/CSS/JS Frontend
+#### PHP/MySQL Middle & Backend
+#### Implemented in MVC - Model View Controller Format
+#### Fetch API for Frontend REST calls
+#### CURL for Middle & Backend Communication
 
-## Home Feed
+# Professor Pages & Functionalities
 
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/20134674/46575379-50016400-c982-11e8-9f4d-6fd5876338df.png" width="225" />
-  <img src="https://user-images.githubusercontent.com/20134674/46575398-7a532180-c982-11e8-8005-a7811c66f90d.png" width="225" /> 
-</p>
-
-## Student Profile
-
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/20134674/46575399-7f17d580-c982-11e8-9223-4c7c103c9d14.png" width="225" />
-</p>
-
-## Add an Event
+## Landing Page
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/20134674/46575401-8212c600-c982-11e8-8eb3-fd5e01e6470d.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553217-441fb400-9d00-11e9-808d-ecda29817e45.png" width="225" />
 </p>
 
-## Edit Profile Options
+## Question Bank
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/20134674/46575402-84752000-c982-11e8-8c99-59d771392612.png" width="225" />
-  <img src="https://user-images.githubusercontent.com/20134674/46575404-86d77a00-c982-11e8-9d70-cab5c0cc2118.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553219-441fb400-9d00-11e9-9e1c-8baf36b0466e.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553220-441fb400-9d00-11e9-815c-d7d200312505.png" width="225" />
 </p>
 
-### Add a Class to your Profile
+## Create an Exam
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/20134674/46575408-8e971e80-c982-11e8-9cc3-4944135b4eed.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553215-441fb400-9d00-11e9-9c83-b2b2bee017c5.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553216-441fb400-9d00-11e9-9013-e7710e08da14.png" width="225" />
 </p>
 
-### Remove a Class from your Profile
+## Review Auto-graded Exam
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/20134674/46575405-8939d400-c982-11e8-9cf6-3c2480621e75.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553218-441fb400-9d00-11e9-9fd3-ccd020101acf.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553212-43871d80-9d00-11e9-9615-743383cea894.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553213-43871d80-9d00-11e9-93a8-d676afc37ad3.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553214-43871d80-9d00-11e9-8cac-3209842da7d9.png" width="225" />
 </p>
 
-### Delete your Public Posts
+# Student Pages & Functionalities
+
+### Landing Page
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/20134674/46575407-8b9c2e00-c982-11e8-94f9-f06393b93fdb.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553222-441fb400-9d00-11e9-86e9-6346e0ee6c8a.png" width="225" />
 </p>
 
-## Login Page
+### Take an Exam
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/20134674/60553223-441fb400-9d00-11e9-9a83-bc8dbb6786cf.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553224-441fb400-9d00-11e9-9f49-ef61750ede59.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553225-441fb400-9d00-11e9-9b71-8869b738d64b.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553226-441fb400-9d00-11e9-99ce-c7cb113a1f22.png" width="225" />
+</p>
+
+### Exam Results Dashboard
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/20134674/60553227-44b84a80-9d00-11e9-9662-165ce6f359e0.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553228-44b84a80-9d00-11e9-8bad-5cb4a73d9618.png" width="225" />
+</p>
 
 <p float="left">
   <img src="https://user-images.githubusercontent.com/20134674/46575409-9060e200-c982-11e8-876d-2509298e98c8.png" width="225" />
 </p>
 
-## Register Page
+## View grading of single exam
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/20134674/46575412-935bd280-c982-11e8-8389-1d8495f66019.png" width="225" />
+  <img src="https://user-images.githubusercontent.com/20134674/60553229-44b84a80-9d00-11e9-871b-02885d65a221.png" width="225" />
 </p>
