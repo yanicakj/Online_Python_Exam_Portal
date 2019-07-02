@@ -63,10 +63,6 @@ A series of equal parts hurriedly and poorly programmed files. Online exam web p
   <img src="https://user-images.githubusercontent.com/20134674/60553228-44b84a80-9d00-11e9-8bad-5cb4a73d9618.png" width="225" />
 </p>
 
-<p float="left">
-  <img src="https://user-images.githubusercontent.com/20134674/46575409-9060e200-c982-11e8-876d-2509298e98c8.png" width="225" />
-</p>
-
 ## View grading of single exam
 
 <p float="left">
